@@ -1,0 +1,40 @@
+        /*Nunca viene mal un poco de color ✨*/
+        body {
+            font-family:'Poppins', sans-serif;
+            background-color: burlywood;
+            color: white;
+            margin: 0;
+            padding: 0;
+            }
+
+        input[type="button"] {
+            padding: 10px 20px;
+            background-color: #c02121;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        input[type="button"]:hover {
+            background-color: #c95757;
+        }
+
+        img{
+            position:relative;
+            left:200px;
+            top:10px;
+            height: 100px;
+            width: 100px;
+        }
+
+        form {
+            background-color: #5a8159;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }

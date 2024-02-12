@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Práctica de Examen</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="codigo.js"></script>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <h3>Carrusel de Imágenes</h3>
+                    <div id="carrusel" style="width: 300px; overflow: hidden; white-space: nowrap;">
+                        <img src="imagenes/1.jpg" style='position:relative;left:200px;top:10px;' width="80px" height="80px" id="img1" name="ima"/><br /><br />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Ingredientes:</label><br/>
+                    <select id="ingredientes"></select><br /><br />
+                    <div>
+                        <label>Receta</label><br/>
+                        <input type="text" id="receta" value=""><br /><br>
+                        <label>Ingrediente:</label><br/>    
+                        <input type="text" id="ingrediente" value=""><br /><br>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label>Recetas:</label><br/>
+                        <select id="recetas"></select><br /><br />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Acciones con Ingredientes</h3>
+                    <div>
+                        <input type="radio" id="E" name="ing" checked="true">Elija <br>
+                        <input type="radio" id="A" name="ing">Añadir <br>
+                        <input type="radio" id="Q" name="ing">Quitar <br>
+                    </div>
+                </td>
+                <td>
+                    <h3>Guardar receta</h3>
+                    <div>
+                        <input type="button" id="guardar" value="Guardar"><br /><br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Mostrar receta</h3>
+                    <div>
+                        <input type="button" id="mostrar" value="Mostrar"><br /><br>
+                    </div>
+                    <div>
+                        <label id="ver"></label><br /><br>
+                    </div>
+                    <div>
+                        <input type="button" id="eliminar" value="Eliminar"><br /><br>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
